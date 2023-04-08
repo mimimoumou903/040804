@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url("style.css");
+.box1 {
+    background-color: hsla(359,57%,66%,1.00);
+    flex: 1;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    background-color: hsla(230,68%,64%,1.00);
+    margin: 5px;
+    flex: 1;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3 {
+    background-color: hsla(113,59%,39%,0.87);
+    margin: 5px;
+    flex: 1;
+    height: 100%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box2 h3  {
+
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
